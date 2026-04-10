@@ -131,7 +131,7 @@ export default function Home() {
 
       <footer className="border-t bg-card mt-4">
         <div className="container mx-auto px-4 py-4 max-w-4xl text-center text-xs text-muted-foreground">
-          Copyright &copy; {new Date().getFullYear()} TransparenTech LLC. All Rights Reserved.{" "}
+          Copyright &copy; {new Date().getFullYear()} Metzap Tech. All Rights Reserved.{" "}
           <a href="#" className="underline underline-offset-2 hover:text-foreground transition-colors">Contact Us</a>
         </div>
       </footer>
@@ -141,7 +141,7 @@ export default function Home() {
 
 function Disclaimer() {
   return (
-    <div className="mt-8 pt-6 border-t border-dashed border-border/60">
+    <div className="mt-8 pt-6 border-t border-dashed border-border/60 justify-center text-center">
       <div className="flex items-start gap-2 mb-3">
         <ShieldCheck className="w-4 h-4 text-muted-foreground mt-0.5 shrink-0" />
         <p className="text-xs text-muted-foreground leading-relaxed">
@@ -174,14 +174,14 @@ function Disclaimer() {
           .
         </p>
       </div>
-      <div className="pl-6 flex flex-wrap gap-4 text-xs">
+      {/* <div className="pl-6 flex flex-wrap gap-4 text-xs justify-around">
         <a href="#" className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-2">
           Privacy Policy
         </a>
         <a href="#" className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-2">
           Developer API
         </a>
-      </div>
+      </div> */}
       <p className="pl-6 mt-3 text-xs text-muted-foreground/70">
         This website uses cookies. We use cookies to personalise content/ads and to analyse our traffic.
       </p>

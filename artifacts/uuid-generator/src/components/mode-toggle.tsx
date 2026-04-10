@@ -14,7 +14,7 @@ export function ModeToggle() {
       data-testid="button-theme-toggle"
     >
       {theme === "light" ? (
-        <Sun className="h-5 w-5 transition-all" />
+        <Sun className="h-5 w-5 transition-all text-white" />
       ) : (
         <Moon className="h-5 w-5 transition-all" />
       )}
